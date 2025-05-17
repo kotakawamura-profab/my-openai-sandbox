@@ -14,3 +14,14 @@ python task_manager.py delete 1
 ```
 
 Tasks are stored in `tasks.json` in the project directory.
+
+## Web Interface
+
+A simple web interface is provided using Flask. Install dependencies and run:
+
+```bash
+pip install -r requirements.txt
+python web.py
+```
+
+Then open `http://localhost:5000/` in your browser to manage tasks.
